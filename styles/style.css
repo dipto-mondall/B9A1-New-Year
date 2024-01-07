@@ -1,12 +1,15 @@
 * {
-  font-family: "Merriweather", serif;
   margin: 0;
   padding: 0;
+  font-family: "Inter", sans-serif;
 }
 header,
-footer {
+main {
   max-width: 1320px;
   margin: 0 auto;
+}
+h2 {
+  font-family: "Merriweather", serif;
 }
 
 /* banner */
@@ -14,7 +17,7 @@ footer {
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../resources/Banner\ Image.png");
   border-radius: 16px;
-  border: 0;
+  margin-bottom: 120px;
 }
 #banner .banner-content {
   text-align: center;
@@ -34,4 +37,38 @@ footer {
   font-size: 72px;
   font-weight: 900;
   line-height: 95px;
+}
+/* main */
+section {
+  margin-bottom: 120px;
+}
+
+/* off section */
+#off-section {
+  text-align: center;
+}
+#off-section .off-section-heading {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+}
+#off-section .off-section-description {
+  margin: 48px 0 16px 0;
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+#off-section .off-section-sub-heading {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+#off-section .off-section-img > img {
+  width: 75%;
+}
+
+/* welcome-section */
+#welcome-section{
+    background: url('');
 }
