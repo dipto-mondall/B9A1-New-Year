@@ -70,7 +70,8 @@ section {
 
 /* welcome-section */
 #welcome-section {
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
   border-radius: 16px;
 }
 #welcome-section .welcome-section-content {
@@ -97,4 +98,57 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   margin-left: 20px;
+}
+/* coming section */
+.cooming-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#cooming-section .cooming-left-column {
+  max-width: 393px;
+}
+#cooming-section .cooming-left-column .cooming-sub-heading {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+#cooming-section .cooming-left-column .cooimg-heading {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 16px 0 22px 0;
+}
+#cooming-section .cooming-left-column .cooming-discriptions {
+  color: #07021199;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+#cooming-section .coming-middle-image {
+  border-radius: 50%;
+  border: 15px solid #f00;
+  padding: 49px;
+}
+#cooming-section .coming-middle-image > img {
+  width: 100%;
+}
+#cooming-section .cooming-right-column {
+  max-width: 276px;
+}
+#cooming-section .cooming-right-column .cooimg-right-heading {
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+}
+#cooming-section .cooming-right-column .cooming-right-discriptions {
+  color: #07021199;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 16px 0 43px 0;
+}
+#cooming-section .cooming-right-column > img{
+    max-width: 140px;
+    max-height: 140px;
 }
