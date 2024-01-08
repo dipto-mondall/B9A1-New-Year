@@ -102,7 +102,11 @@ section {
 
 /* place-section */
 #place-section {
-  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
 }
 #place-section .place-section-container {
   text-align: center;
@@ -127,9 +131,9 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 45px;
-  transition: .4s;
+  transition: 0.4s;
 }
-#place-section .place-section-btn:hover{
+#place-section .place-section-btn:hover {
   background: #000;
   color: #f00;
 }
@@ -186,3 +190,61 @@ section {
   max-width: 140px;
   max-height: 140px;
 }
+
+/* holiday-section */
+#holiday-section {
+}
+#holiday-section .holday-section-content {
+  text-align: center;
+}
+#holiday-section .holiday-section-sub-heading {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+}
+#holiday-section .holiday-section-main-heading {
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+  margin: 16px 0 28px 0;
+}
+#holiday-section .holidays-discrption {
+  color: #07021199;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+#holiday-section .holiday-figure {
+  margin-top: 65px;
+  position: relative;
+  height: 660px;
+}
+#holiday-section .holiday-figure #red-bottom{
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+}
+#holiday-section .holiday-figure #box{
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 10%;
+  width: 50%;
+}
+#holiday-section .holiday-figure #women{
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 50%;
+}
+#holiday-section .holiday-figure #discount{
+  position: absolute;
+  right: 20%;
+  top: 10%;
+  max-width: 50%;
+}
+
+
+
+
+
