@@ -4,7 +4,8 @@
   font-family: "Inter", sans-serif;
 }
 header,
-main {
+main,
+.footer-container {
   max-width: 1320px;
   margin: 0 auto;
 }
@@ -291,7 +292,7 @@ section {
   color: #0702114d;
 }
 #subscribe-section .subscribe-form .subscribe-email {
-  background: #fff; 
+  background: #fff;
   border: 0;
   border-radius: 25px 0 0 25px;
   padding: 25px 200px 25px 30px;
@@ -309,6 +310,49 @@ section {
   padding: 24px 55px;
   margin-left: -4px;
 }
-.subscribe-form{
+.subscribe-form {
   margin-top: 45px;
+}
+/* footer */
+footer{
+  background: #000;
+}
+.footer-container{
+  padding: 120px 0;
+}
+.footer-left-column{
+  max-width: 375px;
+}
+.footer-text, .footer-text{
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer-text{
+  display: block;
+  text-decoration: none;
+}
+
+.footer-uper-part{
+  display: flex;
+  justify-content: space-between;
+}
+footer  hr{
+  margin: 50px 0;
+  height: 1px;
+  background-color: #FFFFFF26;
+  border: none;
+}
+
+footer .footer-icon{
+  text-align: center;
+}
+footer .footer-icon > img{
+  margin-right: 24px;
+}
+
+footer .footer-lower-part{
+  display: flex;
+  justify-content: space-between;
 }
